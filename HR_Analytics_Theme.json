@@ -1,0 +1,143 @@
+{
+  "name": "HR Analytics Executive Glassmorphism Theme",
+  "dataColors": [
+    "#00E5FF",
+    "#FF6D00",
+    "#6366F1",
+    "#10B981",
+    "#F43F5E",
+    "#F59E0B",
+    "#38BDF8",
+    "#94A3B8"
+  ],
+  "background": "#0B0F19",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#00E5FF",
+  "good": "#10B981",
+  "neutral": "#94A3B8",
+  "bad": "#FF6D00",
+  "maximum": "#00E5FF",
+  "center": "#6366F1",
+  "minimum": "#1E2530",
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#E2E8F0"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#94A3B8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#151C28" } },
+            "transparency": 35
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#232D3F" } },
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "transparency": 70,
+            "preset": "Custom",
+            "direction": "Outer",
+            "angle": 135,
+            "distance": 4,
+            "blur": 10
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 13,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "alignment": "Left"
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "fontColor": { "solid": { "color": "#E2E8F0" } }
+          }
+        ],
+        "secLabels": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI",
+            "fontSize": 9,
+            "fontColor": { "solid": { "color": "#94A3B8" } }
+          }
+        ],
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#1E293B" } },
+            "gridHorizontalWeight": 1
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 24,
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": { "solid": { "color": "#94A3B8" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#0B0F19" } },
+            "transparency": 100
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#0B0F19" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
